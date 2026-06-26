@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = {
       name: form.querySelector("input[type='text']").value,
       email: form.querySelector("input[type='email']").value,
-      phone: form.querySelector("input[type='tel']").value
+      phone: form.querySelector("input[type='tel']").value,
+      programme: form.querySelector("input[type='programme']").value
     };
 
     if (submitBtn) {
@@ -21,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     try {
-      await fetch("https://script.google.com/macros/s/AKfycbx-Dp_SLgsvoo55GwDd6BhduyttYA5lJtbzybC3DTEofOg_CNDU2PPUUtLa-MU7GNnIyw/exec", {
+      await fetch("https://script.google.com/macros/s/AKfycbyxDY61LxhewgJ8N1xwCQa1TVprN6AiADEWj4Y2LN9sml4v-1RHcBdTSS7LlPZ2iDHM/exec", {
         method: "POST",
         body: new URLSearchParams(data)
       });
