@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduMoe College</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+<div class="logo">
+<img src="images/logo.png.png" alt="EduMoe Logo">
+<span>EduMoe College</span>
+</div>
+
+<button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+
+<nav id="nav">
+<a href="#about">About</a>
+<a href="#programs">Programmes</a>
+<a href="#partners">Partners</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<a href="#apply" class="nav-btn">Apply</a>
+</header>
+
+<section class="hero">
+<div class="hero-content reveal">
+
+<div class="badge">SKILLS TRAINING • ENTREPRENEURSHIP • FUTURE</div>
+
+<h1>Build Skills.<br>Start Businesses.<br>Change Your Future.</h1>
+
+<p>EduMoe College empowers youth with practical, job-ready skills and entrepreneurship training.</p>
+
+<div class="hero-buttons">
+<a href="#apply" class="btn-primary">Apply Now</a>
+<a href="#programs" class="btn-secondary">View Programmes</a>
+</div>
+
+</div>
+</section>
+
+<section id="about" class="section reveal">
+<h2>About EduMoe College</h2>
+<p>We provide vocational training that bridges unemployment and opportunity through hands-on learning.</p>
+</section>
+
+<section id="programs" class="section dark reveal">
+<h2>Programmes</h2>
+
+<div class="grid">
+<div class="card">Tailoring & Fashion</div>
+<div class="card">Carpentry</div>
+<div class="card">Welding</div>
+<div class="card">Electrical</div>
+<div class="card">Entrepreneurship</div>
+<div class="card">Aluminium Fabrication</div>
+</div>
+</section>
+
+<section id="partners" class="section reveal">
+<h2>Partners</h2>
+
+<div class="grid">
+<div class="card blue">Industry Professionals</div>
+<div class="card blue">Government</div>
+<div class="card blue">NGOs</div>
+<div class="card blue">SETAs</div>
+</div>
+</section>
+
+<section id="apply" class="section apply reveal">
+<h2>Join the Waiting List</h2>
+
+<form>
+<label for="apply-name" class="visually-hidden">Full Name</label>
+<input type="text" id="apply-name" name="name" placeholder="Full Name" autocomplete="name" required>
+
+<label for="apply-email" class="visually-hidden">Email Address</label>
+<input type="email" id="apply-email" name="email" placeholder="Email Address" autocomplete="email" required>
+
+<label for="apply-phone" class="visually-hidden">Phone Number</label>
+<input type="tel" id="apply-phone" name="phone" placeholder="Phone Number" autocomplete="tel" required>
+
+<button type="submit">Submit Application</button>
+</form>
+</section>
+
+<section id="contact" class="section reveal">
+<h2>Contact</h2>
+<p>info@edumoecollege.co.za</p>
+<p>Johannesburg, South Africa</p>
+</section>
+
+<footer>
+<p>© 2026 EduMoe College</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
