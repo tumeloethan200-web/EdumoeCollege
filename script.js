@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: form.querySelector("input[type='text']").value,
       email: form.querySelector("input[type='email']").value,
       phone: form.querySelector("input[type='tel']").value,
-      programme: form.querySelector("input[type='programme']").value
+      programme: form.querySelector("input[type='text']").value
     };
 
     if (submitBtn) {
